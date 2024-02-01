@@ -12,11 +12,12 @@
         <!--<string>/Users/$USER/StartInterval/kdestroy.sh</string> -->
         <!--<string>/Users/kdestroy.sh</string> -->
         <string>
-                today=`date '+%Y_%m_%d_%H_%M_%S'`;
+               <!--today=`date '+%Y_%m_%d_%H_%M_%S'`;
                 echo "It is running on $(date)" > /Users/thunchra/StartInterval/output_file_${today}.txt
                 kdestroy
                 sleep 5
-                klist > /Users/thunchra/StartInterval/klist_${today}.txt
+                klist > /Users/thunchra/StartInterval/klist_${today}.txt -->
+                kdestroy
         </string>
     </array>
     <!--<key>WorkingDirectory</key> -->
@@ -312,9 +313,9 @@
         <integer>30</integer>
     </dict>
     </array>
-    <key>StandardOutPath</key>
+    <!--<key>StandardOutPath</key>
     <string>/Users/thunchra/StartInterval/out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/thunchra/StartInterval/error.log</string>
+    <string>/Users/thunchra/StartInterval/error.log</string> -->
 </dict>
 </plist>
